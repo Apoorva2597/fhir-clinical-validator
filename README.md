@@ -1,5 +1,3 @@
-# fhir-clinical-validator
-
 # FHIR Clinical Data Validator
 
 A validation layer that checks whether a patient's structured clinical data is trustworthy enough for an AI agent to act on. It takes raw HL7 v2 messages or FHIR bundles, runs a set of clinical and structural checks, and produces a plain trust report that flags problems before an agent ever sees the data.
