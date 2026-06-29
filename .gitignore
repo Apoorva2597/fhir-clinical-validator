@@ -1,0 +1,19 @@
+# virtual environment
+venv/
+
+# Synthea program and generated data
+synthea-with-dependencies.jar
+output/
+synthea/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# any local secrets or keys
+*.key
+.env
+
+# OS files
+Thumbs.db
+.DS_Store
